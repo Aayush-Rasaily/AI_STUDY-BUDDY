@@ -4,7 +4,9 @@ from dotenv import load_dotenv
 
 # Load local .env for development (won't affect deployed env vars)
 load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+# Set the Gemini API key. Prefer environment variable `GEMINI_API_KEY` if present,
+# otherwise fall back to the provided key string.
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyCWRer3caSLriCqcHcC0IPHjrKFNW0W2nU")
 
 api_configured = False
 _config_error = ""
