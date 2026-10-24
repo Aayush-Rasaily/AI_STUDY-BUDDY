@@ -67,7 +67,7 @@ bash
 Copy code
 streamlit run main.py
 The app will open in your browser automatically.
-
+```
 🚀 Deployment
 You can deploy this project on:
 
@@ -97,14 +97,5 @@ If you like this project:
 
 Happy Learning! 😊📚
 
-yaml
-Copy code
 
----
 
-If you want, I can:
-
-✅ Add screenshots section  
-✅ Add badges (GitHub stars, python version, etc.)  
-✅ Add demo video section  
-Just tell me — I’ll update it for you!
